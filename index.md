@@ -1,5 +1,5 @@
 **Welcome to Haley Nguyen's Page**
-#About me:
+# About me:
 - I am a first-year student attending UCSD
 - I am a computer science major
 - I live in sixth college
