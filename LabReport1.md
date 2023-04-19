@@ -35,16 +35,28 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ## Step 3: Trying out some commands 
 Try running some of the following commands in the terminal:
-- cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-- ls -lat
-- ls -a
-- ls
-- pwd
+- `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+- `ls -a`
+- `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+- `pwd`
+- `mkdir NewDirectory`
 
-This is what the commands printed out for me
-![Image](runningcommands.png)
+This is what the above commands printed out for me:
 
-the ls command printed lists while the pwd command printed out the current working directory I was in
+The `cp` command will copy the file /home/linux/ieng6/cs15lsp23/public/hello.txt to the home directory. 
+![Image](cpCommand.png)
+
+The `ls -a` command will list out all of the files in the current path (including hidden ones) which is what differentiates it from the `ls` command. 
+![Image](ls.png)
+
+The `cat` command is used to print out the contents of hello.txt.
+![Image](catCommand.png)
+
+The `pwd` command is used to print out the current working directory which is /home/linux/ieng6/cs15lsp23/cs15lsp23mn
+![Image](pwd.png)
+
+The `mkdir` command will make a new directory titled NewDirectory.
+![Image](mkdir.png)
  
  > You should run the commands on your computer (without ssh-ing) and with (ssh-ing)
  > - To exit the server that you connected to by (ssh-ing) simply do Ctrl-D to exit
