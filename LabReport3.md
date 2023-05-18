@@ -112,7 +112,7 @@ result
 ```
 When using `-o` with `grep` here it only prints out the string "result" rather than all the lines that contain the string "result." This can be useful if you want to extract a specific string out of a file and check to see if you used it too many times. For example, let's say you were writing a report and wanted to see if you used the phrase "therefore" too much. You could use `grep -o` and check how many times the word is returned to gauge whether or not you need to change some words in your report. <br>
 *Found on: ChatGPT (a software that is driven by artificial intelligence)*
-***
+
 - **ChatGPT prompt:** "why would  grep -o be useful in linux"
 - **ChatGPT output:** <br>
 
@@ -124,7 +124,6 @@ Using grep -o can be useful in various situations, such as: <br>
 3. Manipulating text: If you want to manipulate the output of a command based on a specific pattern, you can use grep -o to extract the relevant part and then use other Linux commands to manipulate the output. <br>
 
 Overall, grep -o can be a powerful tool for working with text in Linux, allowing you to extract and manipulate specific information from files or command output.
-***
 
 **Example 2:**
 ```
@@ -140,7 +139,7 @@ measure
 ```
 When using `-o` with `grep` here it only prints out the string "measure" rather than all the lines that contain the string "measure." This can be useful if you want to extract a specific string out of a file with the intent to manipulate in some way. For example, let's say you were writing a lab report and you needed to change all of the times you mentioned "measure" to "recorded." Rather than manually search for every time you used "measure," you can utilize `grep -o` to find all of these instances in one go. After this, you can use other commands to help change all of the times you used "measure" to "recorded." <br>
 *Found on: ChatGPT (a software that is driven by artificial intelligence)*
-***
+
 - **ChatGPT prompt:** "why would  grep -o be useful in linux"
 - **ChatGPT output:** <br>
 
@@ -152,4 +151,3 @@ Using grep -o can be useful in various situations, such as: <br>
 3. Manipulating text: If you want to manipulate the output of a command based on a specific pattern, you can use grep -o to extract the relevant part and then use other Linux commands to manipulate the output. <br>
 
 Overall, grep -o can be a powerful tool for working with text in Linux, allowing you to extract and manipulate specific information from files or command output.
-***
